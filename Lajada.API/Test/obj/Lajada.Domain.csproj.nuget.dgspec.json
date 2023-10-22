@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jm_xt\\source\\repos\\Lajada.API\\Test\\Lajada.Domain.csproj": {}
+    "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Test\\Lajada.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jm_xt\\source\\repos\\Lajada.API\\Test\\Lajada.Domain.csproj": {
+    "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Test\\Lajada.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jm_xt\\source\\repos\\Lajada.API\\Test\\Lajada.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Test\\Lajada.Domain.csproj",
         "projectName": "Lajada.Domain",
-        "projectPath": "C:\\Users\\jm_xt\\source\\repos\\Lajada.API\\Test\\Lajada.Domain.csproj",
+        "projectPath": "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Test\\Lajada.Domain.csproj",
         "packagesPath": "C:\\Users\\jm_xt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jm_xt\\source\\repos\\Lajada.API\\Test\\obj\\",
+        "outputPath": "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jm_xt\\AppData\\Roaming\\NuGet\\NuGet.Config",

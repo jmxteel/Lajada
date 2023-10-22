@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1briFofzmQCey6zk0KT9kAKlLJ5FRS8VFEbl7mgv9J1/ljT4sRWDNr3yyrrTtt8v5RCv8C4AeFS8rN20kRarUg==",
+  "dgSpecHash": "HhDUg3yzbGtizD+WyMwCGsFQPvmGPl2T41O1jgifO5owU8gty6fLpxpzy0Uokv2OWuwDe0UMbjFPvaQN0Wd9iQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jm_xt\\source\\repos\\Lajada.API\\Lajada.API\\Lajada.API.csproj",
+  "projectFilePath": "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Lajada.API\\Lajada.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jm_xt\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jm_xt\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

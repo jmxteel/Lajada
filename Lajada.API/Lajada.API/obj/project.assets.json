@@ -2246,11 +2246,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jm_xt\\source\\repos\\Lajada.API\\Lajada.API\\Lajada.API.csproj",
+      "projectUniqueName": "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Lajada.API\\Lajada.API.csproj",
       "projectName": "Lajada.API",
-      "projectPath": "C:\\Users\\jm_xt\\source\\repos\\Lajada.API\\Lajada.API\\Lajada.API.csproj",
+      "projectPath": "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Lajada.API\\Lajada.API.csproj",
       "packagesPath": "C:\\Users\\jm_xt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jm_xt\\source\\repos\\Lajada.API\\Lajada.API\\obj\\",
+      "outputPath": "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Lajada.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jm_xt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2267,8 +2267,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\jm_xt\\source\\repos\\Lajada.API\\Test\\Lajada.Domain.csproj": {
-              "projectPath": "C:\\Users\\jm_xt\\source\\repos\\Lajada.API\\Test\\Lajada.Domain.csproj"
+            "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Test\\Lajada.Domain.csproj": {
+              "projectPath": "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Test\\Lajada.Domain.csproj"
             }
           }
         }
