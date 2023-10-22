@@ -12,3 +12,17 @@ C:\Users\jm_xt\source\repos\Lajada.API\Test\obj\Debug\net6.0\refint\Lajada.Domai
 C:\Users\jm_xt\source\repos\Lajada.API\Test\obj\Debug\net6.0\Lajada.Domain.pdb
 C:\Users\jm_xt\source\repos\Lajada.API\Test\obj\Debug\net6.0\Lajada.Domain.genruntimeconfig.cache
 C:\Users\jm_xt\source\repos\Lajada.API\Test\obj\Debug\net6.0\ref\Lajada.Domain.dll
+D:\Repo\Lajada\Lajada.API\Test\bin\Debug\net6.0\Lajada.Domain.deps.json
+D:\Repo\Lajada\Lajada.API\Test\bin\Debug\net6.0\Lajada.Domain.runtimeconfig.json
+D:\Repo\Lajada\Lajada.API\Test\bin\Debug\net6.0\Lajada.Domain.dll
+D:\Repo\Lajada\Lajada.API\Test\bin\Debug\net6.0\Lajada.Domain.pdb
+D:\Repo\Lajada\Lajada.API\Test\obj\Debug\net6.0\Lajada.Domain.csproj.AssemblyReference.cache
+D:\Repo\Lajada\Lajada.API\Test\obj\Debug\net6.0\Lajada.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repo\Lajada\Lajada.API\Test\obj\Debug\net6.0\Lajada.Domain.AssemblyInfoInputs.cache
+D:\Repo\Lajada\Lajada.API\Test\obj\Debug\net6.0\Lajada.Domain.AssemblyInfo.cs
+D:\Repo\Lajada\Lajada.API\Test\obj\Debug\net6.0\Lajada.Domain.csproj.CoreCompileInputs.cache
+D:\Repo\Lajada\Lajada.API\Test\obj\Debug\net6.0\Lajada.Domain.dll
+D:\Repo\Lajada\Lajada.API\Test\obj\Debug\net6.0\refint\Lajada.Domain.dll
+D:\Repo\Lajada\Lajada.API\Test\obj\Debug\net6.0\Lajada.Domain.pdb
+D:\Repo\Lajada\Lajada.API\Test\obj\Debug\net6.0\Lajada.Domain.genruntimeconfig.cache
+D:\Repo\Lajada\Lajada.API\Test\obj\Debug\net6.0\ref\Lajada.Domain.dll

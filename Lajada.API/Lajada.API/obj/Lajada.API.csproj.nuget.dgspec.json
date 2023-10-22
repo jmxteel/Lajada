@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Lajada.API\\Lajada.API.csproj": {}
+    "D:\\Repo\\Lajada\\Lajada.API\\Lajada.API\\Lajada.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Lajada.API\\Lajada.API.csproj": {
+    "D:\\Repo\\Lajada\\Lajada.API\\Lajada.API\\Lajada.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Lajada.API\\Lajada.API.csproj",
+        "projectUniqueName": "D:\\Repo\\Lajada\\Lajada.API\\Lajada.API\\Lajada.API.csproj",
         "projectName": "Lajada.API",
-        "projectPath": "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Lajada.API\\Lajada.API.csproj",
-        "packagesPath": "C:\\Users\\jm_xt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Lajada.API\\obj\\",
+        "projectPath": "D:\\Repo\\Lajada\\Lajada.API\\Lajada.API\\Lajada.API.csproj",
+        "packagesPath": "C:\\Users\\Wrath\\.nuget\\packages\\",
+        "outputPath": "D:\\Repo\\Lajada\\Lajada.API\\Lajada.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jm_xt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Wrath\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Test\\Lajada.Domain.csproj": {
-                "projectPath": "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Test\\Lajada.Domain.csproj"
+              "D:\\Repo\\Lajada\\Lajada.API\\Lajada.Services\\Lajada.Services.csproj": {
+                "projectPath": "D:\\Repo\\Lajada\\Lajada.API\\Lajada.Services\\Lajada.Services.csproj"
+              },
+              "D:\\Repo\\Lajada\\Lajada.API\\Test\\Lajada.Domain.csproj": {
+                "projectPath": "D:\\Repo\\Lajada\\Lajada.API\\Test\\Lajada.Domain.csproj"
               }
             }
           }
@@ -44,6 +51,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -86,17 +97,98 @@
         }
       }
     },
-    "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Test\\Lajada.Domain.csproj": {
+    "D:\\Repo\\Lajada\\Lajada.API\\Lajada.Services\\Lajada.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Test\\Lajada.Domain.csproj",
-        "projectName": "Lajada.Domain",
-        "projectPath": "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Test\\Lajada.Domain.csproj",
-        "packagesPath": "C:\\Users\\jm_xt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jm_xt\\source\\repos\\Lajada\\Lajada.API\\Test\\obj\\",
+        "projectUniqueName": "D:\\Repo\\Lajada\\Lajada.API\\Lajada.Services\\Lajada.Services.csproj",
+        "projectName": "Lajada.Services",
+        "projectPath": "D:\\Repo\\Lajada\\Lajada.API\\Lajada.Services\\Lajada.Services.csproj",
+        "packagesPath": "C:\\Users\\Wrath\\.nuget\\packages\\",
+        "outputPath": "D:\\Repo\\Lajada\\Lajada.API\\Lajada.Services\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jm_xt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Wrath\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Repo\\Lajada\\Lajada.API\\Test\\Lajada.Domain.csproj": {
+                "projectPath": "D:\\Repo\\Lajada\\Lajada.API\\Test\\Lajada.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repo\\Lajada\\Lajada.API\\Test\\Lajada.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repo\\Lajada\\Lajada.API\\Test\\Lajada.Domain.csproj",
+        "projectName": "Lajada.Domain",
+        "projectPath": "D:\\Repo\\Lajada\\Lajada.API\\Test\\Lajada.Domain.csproj",
+        "packagesPath": "C:\\Users\\Wrath\\.nuget\\packages\\",
+        "outputPath": "D:\\Repo\\Lajada\\Lajada.API\\Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Wrath\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -122,6 +214,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.0, )"

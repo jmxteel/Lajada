@@ -1,0 +1,15 @@
+D:\Repo\Lajada\Lajada.API\Lajada.Services\bin\Debug\net6.0\Lajada.Services.deps.json
+D:\Repo\Lajada\Lajada.API\Lajada.Services\bin\Debug\net6.0\Lajada.Services.dll
+D:\Repo\Lajada\Lajada.API\Lajada.Services\bin\Debug\net6.0\Lajada.Services.pdb
+D:\Repo\Lajada\Lajada.API\Lajada.Services\bin\Debug\net6.0\Lajada.Domain.dll
+D:\Repo\Lajada\Lajada.API\Lajada.Services\bin\Debug\net6.0\Lajada.Domain.pdb
+D:\Repo\Lajada\Lajada.API\Lajada.Services\obj\Debug\net6.0\Lajada.Services.csproj.AssemblyReference.cache
+D:\Repo\Lajada\Lajada.API\Lajada.Services\obj\Debug\net6.0\Lajada.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repo\Lajada\Lajada.API\Lajada.Services\obj\Debug\net6.0\Lajada.Services.AssemblyInfoInputs.cache
+D:\Repo\Lajada\Lajada.API\Lajada.Services\obj\Debug\net6.0\Lajada.Services.AssemblyInfo.cs
+D:\Repo\Lajada\Lajada.API\Lajada.Services\obj\Debug\net6.0\Lajada.Services.csproj.CoreCompileInputs.cache
+D:\Repo\Lajada\Lajada.API\Lajada.Services\obj\Debug\net6.0\Lajada.Services.csproj.CopyComplete
+D:\Repo\Lajada\Lajada.API\Lajada.Services\obj\Debug\net6.0\Lajada.Services.dll
+D:\Repo\Lajada\Lajada.API\Lajada.Services\obj\Debug\net6.0\refint\Lajada.Services.dll
+D:\Repo\Lajada\Lajada.API\Lajada.Services\obj\Debug\net6.0\Lajada.Services.pdb
+D:\Repo\Lajada\Lajada.API\Lajada.Services\obj\Debug\net6.0\ref\Lajada.Services.dll
