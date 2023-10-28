@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Lajada.Domain.IRepository
 {
-    public interface IPersonalInformationRepository: IGenericRepository<Personal_Information>
+    public interface IPersonalInformationRepository: IGenericRepository<Personal_Information>, IDisposable
     {
 
     }

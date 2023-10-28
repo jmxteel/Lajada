@@ -1,6 +1,8 @@
 using Lajada.Domain.Context;
 using Lajada.Domain.IRepository;
+using Lajada.Domain.IRepository.IGenericRepository;
 using Lajada.Domain.Repository;
+using Lajada.Domain.Repository.GenericRepository;
 using Lajada.Services;
 using Lajada.Services.IServiceRepository;
 using Lajada.Services.ServiceRepository;
@@ -10,11 +12,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers(options =>
-{
-    options.ReturnHttpNotAcceptable = true;
-})
-.AddXmlDataContractSerializerFormatters()
+builder.Services.AddControllers(
+//    options =>
+//{
+//    options.ReturnHttpNotAcceptable = true;
+//}
+)
+//.AddXmlDataContractSerializerFormatters()
 .AddNewtonsoftJson();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -26,6 +30,7 @@ builder.Services.AddDbContext<LajadaDbContext>(
             builder.Configuration["ConnectionStrings:DBConnectionString"]));
 
 builder.Services.AddScoped<IPersonalInformationRepository, PersonalInformationRepository>();
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
 builder.Services.AddTransient(typeof(IGenericService<>), typeof(GenericService<>));
 builder.Services.AddTransient<IPersonalInformationService, PersonalInformationService>();
