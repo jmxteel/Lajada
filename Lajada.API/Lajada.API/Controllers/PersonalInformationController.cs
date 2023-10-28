@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using Abp.Domain.Entities;
+using AutoMapper;
 using Lajada.Domain.Entities;
 using Lajada.Services.IServiceRepository;
 using Lajada.Services.Models;
@@ -28,7 +29,7 @@ namespace Lajada.API.Controllers
             return Ok(result);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{id}", Name = "GetPersonalInformation")]
         public async Task<IActionResult> Get(int id)
         {
             var result = await _personalInformationService.GetByIdAsync(id);
@@ -36,12 +37,29 @@ namespace Lajada.API.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Personal_InformationDto>> Add(Personal_InformationDto personalInformationdData)
+        public async Task<IActionResult> Add([FromBody] Personal_InformationDto personalInformationdData)
         {
-            var finalData = _mapper.Map<Personal_Information>(personalInformationdData);
-            await _personalInformationService.AddAsync(finalData);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
 
-            return NoContent();
+            try
+            {
+                await _personalInformationService.AddAsync(personalInformationdData);
+            }
+            catch(Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+
+            return CreatedAtRoute("GetPersonalInformation",
+                new 
+                    { 
+                        Id = personalInformationdData.Id,
+                    },
+                personalInformationdData
+                );
         }
 
     }

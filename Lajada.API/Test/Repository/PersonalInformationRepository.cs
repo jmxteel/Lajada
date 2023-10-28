@@ -16,6 +16,11 @@ namespace Lajada.Domain.Repository
         public PersonalInformationRepository(LajadaDbContext context) : base(context) 
         { 
         }
+
+        public void Dispose()
+        {
+            // throw exception
+        }
         
     }
 }
